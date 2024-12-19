@@ -18,7 +18,7 @@ namespace Company.Function
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("C# HTTP trigger test yes a request.");
-            return new OkObjectResult("Welcome to Azure Functions!");
+            return new OkObjectResult("BY GIT ACTION!");
         }
     }
 }
