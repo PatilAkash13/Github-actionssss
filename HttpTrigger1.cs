@@ -18,7 +18,7 @@ namespace Company.Function
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("C# HTTP trigger test yes a request.");
-            return new OkObjectResult("This deployment method i am doing via git action!");
+            return new OkObjectResult("One shot!");
         }
     }
 }
